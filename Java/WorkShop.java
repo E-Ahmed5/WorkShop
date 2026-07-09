@@ -98,8 +98,8 @@ public static void peek(){
     }
 }
 public static void searchCar(String car){
-for(int i=top;i>=0;i--){
-    if(listCar[i].equals(car)){
+for(int i=top;i>=0;i--){w
+    if(listCar[i].equalslgnoreCase(car)){
         System.out.println("Car found at park: "+i);
         return;
     }
